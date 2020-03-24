@@ -39,5 +39,9 @@ import { API_CONFIG } from '../../config/api.config';
           },
           error => {});
       }
-    }  
+    } 
+    
+    showDetail() {
+      this.navCtrl.push('ProdutoDetailPage');
+    }
 }
